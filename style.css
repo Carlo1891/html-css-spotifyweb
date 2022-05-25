@@ -1,0 +1,11 @@
+/* Breakpoint
+lg 	> 1100-*
+md 	> 701-1100
+s 	> 601-700
+xs 	> 0-600 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
