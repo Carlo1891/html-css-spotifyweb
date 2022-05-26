@@ -11,6 +11,10 @@ xs 	> 0-600 */
     font-family: Montserrat;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
 }
@@ -20,12 +24,12 @@ xs 	> 0-600 */
     height: 100px;
 }
 
-.white-clr{
-    color: white;
+.fa-solid {
+    font-size: 25px;
 }
 
-a {
-    text-decoration: none;
+.white-clr{
+    color: white;
 }
 
 /* Upgrade bar */
@@ -44,26 +48,17 @@ a {
     font-weight: bold;
 }
 
-/* Main menu utente */
+/* Main  aside menu utente */
 
-.menu-user {
-    width: 15%;
-    height: 100vh;
-    background-color: aqua;
-}
 
 /* Main pagina principale con suggerimenti */
 
-.home-music {
-    width: 85%;
-    height: 100vh;
-    background-color: aquamarine;
-}
 
 /* Riproduzione musica */
 
 .bottom.bar {
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36)
 }
+
