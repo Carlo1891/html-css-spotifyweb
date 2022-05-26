@@ -19,6 +19,14 @@ a {
     display: flex;
 }
 
+.fd-c {
+    flex-direction: column;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
 .bar {
     width: 100%;
     height: 100px;
@@ -28,14 +36,13 @@ a {
     font-size: 25px;
 }
 
-.white-clr{
+.white-clr {
     color: white;
 }
 
-/* Upgrade bar */
+/* Main con upgrade botton */
 
 .top.bar {
-    justify-content: flex-end;
     align-items: center;
     background-color: black;
     opacity: 0.8;
@@ -48,17 +55,30 @@ a {
     font-weight: bold;
 }
 
-/* Main  aside menu utente */
+/* Main SX aside menu utente */
+
+.user.menu {
+    width: 200px;
+    height: calc(100vh - 100px);
+    background-color: lightgrey;
+}
+
+.user.profile {
+    justify-content: space-between;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Main DX pagina principale con suggerimenti */
 
 
-/* Main pagina principale con suggerimenti */
-
-
-/* Riproduzione musica */
+/* Riproduzione musica pseudofooter */
 
 .bottom.bar {
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(36, 36, 36)
+    background-color: rgb(36, 36, 36);
 }
-
